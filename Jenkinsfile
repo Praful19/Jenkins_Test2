@@ -15,10 +15,5 @@ pipeline {
          sh "mvn clean deploy"
       }
     }
-    stage("Deploy To Test 2.0 "){
-      steps{
-         echo "Test is success"
-      }
-    }
   }
 }
