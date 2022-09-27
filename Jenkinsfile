@@ -10,7 +10,7 @@ pipeline {
         sh "mvn clean package"
       }
     }
-    stage("Deploy To Dev 2.0 "){
+    stage("Deploy To Dev 3.0 "){
       steps{
          sh "mvn clean deploy"
       }
